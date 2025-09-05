@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png"
 
-export default function SignIn() {
+export default function Sign() {
     return (
         <div className="min-h-screen flex items-center justify-center bg-[#0B0B0F] text-white px-4">
 
