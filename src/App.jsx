@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import SignUp from "./pages/SignUp";
 import Footer from "./components/Footer";
-// import SignIn from "./pages/Login";
+import SignIn from "./pages/Login";
 
 import { useState } from "react";
 
@@ -14,9 +14,7 @@ function App() {
 
       {/* Main Content */}
       <main className="flex-grow">
-        {isSignUp && <SignUp />
-          // : <SignIn />}
-        }
+        {isSignUp ? <SignUp /> : <SignIn />}
       </main>
 
       {/* Footer */}
