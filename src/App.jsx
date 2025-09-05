@@ -6,7 +6,7 @@ import SignIn from "./pages/Login";
 import { useState } from "react";
 
 function App() {
-  const [isSignUp, setIsSignUp] = useState(false);
+  const [isSignUp, setIsSignUp] = useState(true);
   return (
     <div className="flex flex-col min-h-screen bg-[#0B0B0F]">
       {/* Header */}
